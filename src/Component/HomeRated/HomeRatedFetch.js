@@ -20,10 +20,10 @@ componentDidMount(){
         }
     
         left=()=>{
-            let left=document.querySelector(".sectionGridNew").scrollLeft-=500
+            document.querySelector(".sectionGridNew").scrollLeft-=500
         }
         right=()=>{
-            let left=document.querySelector(".sectionGridNew").scrollLeft+=500
+            document.querySelector(".sectionGridNew").scrollLeft+=500
         }
         render() { 
             console.log(this.state.data);

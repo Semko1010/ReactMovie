@@ -22,10 +22,10 @@ componentDidMount(){
         
         }
         left=()=>{
-            let left=document.querySelector(".sectionGrid").scrollLeft-=500
+            document.querySelector(".sectionGrid").scrollLeft-=500
         }
         right=()=>{
-            let left=document.querySelector(".sectionGrid").scrollLeft+=500
+            document.querySelector(".sectionGrid").scrollLeft+=500
         }
     
         render() { 

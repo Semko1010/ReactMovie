@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-import SearchFetch from "../Search/SearchFetch"
 
 
 class Header extends Component {

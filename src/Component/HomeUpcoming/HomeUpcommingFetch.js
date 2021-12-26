@@ -15,10 +15,10 @@ class HomeUpcommingFetch extends Component {
         }
     
         left=()=>{
-            let left=document.querySelector(".sectionGridUpcomming").scrollLeft-=500
+            document.querySelector(".sectionGridUpcomming").scrollLeft-=500
         }
         right=()=>{
-            let left=document.querySelector(".sectionGridUpcomming").scrollLeft+=500
+            document.querySelector(".sectionGridUpcomming").scrollLeft+=500
         }
 
     render() { 

@@ -2,9 +2,9 @@ import Button from "../Button/Button"
 import React, { Component } from 'react'
 
 import Home from '../Home/Home'
-let a =1
+
 let searchArray ="";
-let btn = document.getElementById("btn")
+
 class SearchFetch extends Component {
     
     constructor(props) {
@@ -25,7 +25,7 @@ class SearchFetch extends Component {
 
 
 search=()=>{
-    const timer2=setTimeout(() =>{
+    
     let input = document.getElementById("input").value
     searchArray = input
     console.log(searchArray);
@@ -33,7 +33,7 @@ search=()=>{
     .then (response => response.json())
     .then(json => this.setState({ search:json.results}))
     console.log("test");
-},1000)
+
 }
 
 
