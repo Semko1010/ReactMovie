@@ -31,7 +31,7 @@ componentDidMount(){
         render() { 
             console.log(this.state.data);
         return ( <div>
-            <Header/>
+           
             <h2>Beliebteste Filme</h2>
             <div className="sectionGrid">
                  
