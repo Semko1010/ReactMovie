@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Home from './Home'
-
+import Header from '../Header/Header'
 class HomeFetch extends Component {
     constructor(props) {
         super(props);
@@ -31,6 +31,7 @@ componentDidMount(){
         render() { 
             console.log(this.state.data);
         return ( <div>
+            <Header/>
             <h2>Beliebteste Filme</h2>
             <div className="sectionGrid">
                  
