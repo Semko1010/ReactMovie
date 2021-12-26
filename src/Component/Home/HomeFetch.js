@@ -30,7 +30,7 @@ componentDidMount(){
     
         render() { 
             console.log(this.state.data);
-        return ( <div>
+        return ( <div className="h2Section">
            
             <h2>Beliebteste Filme</h2>
             <div className="sectionGrid">

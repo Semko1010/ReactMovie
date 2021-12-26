@@ -16,21 +16,21 @@ img{
  /* ########## Header##########  */
 header{
   background-color: rgb(33, 33, 33);
-  height:50px;
+  height:40px;
   text-align: center;
-  padding:30px;
+  padding:20px;
 }
 input{
   text-align: center;
   padding:10px 70px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid black;
-  margin: 10px;
+  margin: 0px;
 }
 h2{
   font-size: 3rem;
   text-align: center;
- padding: 10px 0;
+  padding: 10px 0;
   background-color:rgb(12, 12, 12);
   color: White;
   text-shadow: 0 0 3px white;
@@ -38,8 +38,11 @@ h2{
   margin:0 auto 30px auto;
   border: 1px solid white;
   border-radius:20px 0 20px 0;
-  width: 30%;
+  width: 40%;
 
+}
+.h2Section{
+  padding:5vh 0 0 0;
 }
  /* ########## Section ##########  */
 .sectionGrid{
@@ -182,6 +185,17 @@ opacity: 0.8;
   
 }
 /* ########## Search ##########  */
+
+.searchButton{
+  background-color: rgb(33, 33, 33);
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+.searchButton button{
+  padding: 5px 60px;
+  border-radius:5px;
+  cursor: pointer;
+ }
 .sectionGridUpcomming{
   position: relative;
   scroll-behavior:smooth;
@@ -207,4 +221,233 @@ margin: 30px;
  height:450px;
  border-radius: 20px;
  box-shadow: 0 0 10px white;
+}
+
+/* ########## MediaQueries ##########  */
+
+
+@media (max-width: 375px) {
+ 
+  body{
+    font-family: 'IM Fell English SC', serif;
+    background-color: rgb(12, 12, 12);
+  }
+  
+  img{
+   width: 80%;
+   height:250px;
+  }
+   /* ########## Header##########  */
+  header{
+    background-color: rgb(33, 33, 33);
+    height:50px;
+    text-align: center;
+    padding:30px;
+  }
+  input{
+    text-align: center;
+    padding:10px 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 0px;
+  }
+  h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 0;
+    background-color:rgb(12, 12, 12);
+    color: White;
+    text-shadow: 0 0 3px white;
+    box-shadow: 0 0 10px white;
+    margin:0 auto 30px auto;
+    border: 1px solid white;
+    border-radius:20px 0 20px 0;
+    width: 70%;
+  
+  }
+   /* ########## Section ##########  */
+  .sectionGrid{
+    position: relative;
+    scroll-behavior:smooth;
+    overflow: auto;
+    overflow-x:auto;
+    text-align: center;
+    display: flex;
+   
+    background-color: rgb(12, 12, 12);
+    padding:0vh 0 0 0;
+    width:100%
+  }
+  p{
+  
+  color: white;
+  font-size: 1.2rem;
+  }
+  .sectionGrid div{
+    margin: 30px;
+    position: relative;
+    
+  }
+  .sectionGrid p:nth-of-type(2){
+   height:80px;
+    
+  }
+  .sectionGridNew article{
+    margin: 30px;
+    position: relative;
+    
+  }
+  .sectionGridNew p:nth-of-type(2){
+    height:80px;
+    
+  }
+  /* ########## Upcomming ##########  */
+  .sectionGridUpcomming div{
+    margin: 30px;
+    position: relative;
+  }
+  .sectionGridUpcomming p:nth-of-type(2){
+    height:80px;
+  }
+  .voting{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background-color: yellowgreen;
+    text-align: center;
+    padding:5px 0 0 0;
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  /* ########## Scroll Button ##########  */
+  .btnLeft{
+    position: sticky;
+    left: 0px;
+    width: 100px;
+    z-index: 1;
+    top: 0px;
+    opacity: 0.8;
+    display:none;
+  }
+  
+  .btnRight{
+  width: 100px;
+  position: sticky;
+  right: 0px;
+  top: 0px;
+  opacity: 0.8;
+  display:none;
+  }
+  .btnLink{
+    background-color: yellowgreen;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .Link{
+    color: white;
+    text-decoration: none;
+    
+  }
+  /* ########## Article ##########  */
+  .sectionGridNew{
+    position: relative;
+    scroll-behavior:smooth;
+    overflow: auto;
+    overflow-x: auto;
+    text-align: center;
+    display: flex;
+    background-color: rgb(12, 12, 12);
+    width:100%
+  }
+  .btnLeftnew{
+    position:sticky;
+    left: 0px;
+    width: 100px;
+    z-index: 1;
+    top: 0px;
+    opacity: 0.8;
+    display:none;
+  }
+  
+  .btnRightnew{
+  width: 100px;
+  position:sticky;
+  right: 0px;
+  top: 0px;
+  opacity: 0.8;
+  display:none;
+  }
+  /* ########## Details ##########  */
+  .detailsDiv {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top:10vh;
+    background-color: rgb(12, 12, 12);
+    padding: 0 0 5vh 0;
+  
+  }
+  .iFrime{
+    width:100%;
+    margin: 0 auto;
+  }
+  
+  .detailsDivChild {
+    margin:0 0 0 30px;
+   
+  }
+  .detailsDiv p{
+    
+    color: white;
+    width:95vw;
+    margin:15px auto;
+  }
+  .detailsDiv h3{
+    color: white;
+    width:40vw;
+    margin: 10px auto;
+  }
+  .detailsDiv img{
+    width:90%;
+    height:500px;
+    margin: 0 auto;
+    
+  }
+  /* ########## Search ##########  */
+  .sectionGridUpcomming{
+    position: relative;
+    scroll-behavior:smooth;
+    overflow: auto;
+    overflow-x: auto;
+    text-align: center;
+    display: flex;
+    background-color: rgb(12, 12, 12);
+    width:100%
+  }
+  .searchButton{
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+  }
+  .searchButton button{
+   padding: 5px 30px;
+   
+  }
+  .searchSection{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  }
+  .searchSection div{
+    position: relative;
+  margin: 30px;
+  }
+  .searchSection img{
+   width: 80%;
+   height:450px;
+   border-radius: 20px;
+   box-shadow: 0 0 10px white;
+  }
 }
