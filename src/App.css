@@ -1,38 +1,155 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'IM Fell English SC', serif;
+  background-color: rgb(12, 12, 12);
+}
+
+
+ /* ########## Header##########  */
+header{
+  background-color: rgb(33, 33, 33);
+  height:50px;
   text-align: center;
+  padding:30px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  text-align: center;
+  padding:10px 70px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  font-size: 3rem;
+  text-align: center;
+  padding:2vh 0 0 0;
+  background-color:rgb(12, 12, 12);
+  color: White;
+  text-shadow: 0 0 3px white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ /* ########## Section ##########  */
+.sectionGrid{
+  position: relative;
+  scroll-behavior:smooth;
+  overflow: auto;
+  overflow-x: hidden;
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(12, 12, 12);
+  padding:0vh 0 0 0;
+  width:100%
+}
+p{
+
+color: white;
+font-size: 1.2rem;
+}
+.sectionGrid div{
+  margin: 30px;
+  position: relative;
+  
+}
+.sectionGridNew article{
+  margin: 30px;
+  position: relative;
+  
+}
+.voting{
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  background-color: yellowgreen;
+  text-align: center;
+  padding:5px 0 0 0;
+  width: 35px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* ########## Scroll Button ##########  */
+.btnLeft{
+  position: sticky;
+  left: 0px;
+  width: 100px;
+  z-index: 1;
+  top: 0px;
+  opacity: 0.8;
+}
+
+.btnRight{
+width: 100px;
+position: sticky;
+right: 0px;
+top: 0px;
+opacity: 0.8;
+
+}
+.btnLink{
+  background-color: yellowgreen;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.Link{
   color: white;
+  text-decoration: none;
+}
+/* ########## Article ##########  */
+.sectionGridNew{
+  position: relative;
+  scroll-behavior:smooth;
+  overflow: auto;
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  background-color: rgb(12, 12, 12);
+  width:100%
+}
+.btnLeftnew{
+  position:sticky;
+  left: 0px;
+  width: 100px;
+  z-index: 1;
+  top: 0px;
+  opacity: 0.8;
 }
 
-.App-link {
-  color: #61dafb;
+.btnRightnew{
+width: 100px;
+position:sticky;
+right: 0px;
+top: 0px;
+opacity: 0.8;
 }
+/* ########## Details ##########  */
+.detailsDiv {
+  display: flex;
+  justify-content:center;
+  margin-top:10vh;
+  background-color: rgb(12, 12, 12);
+  padding: 0 0 5vh 0;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.detailsDivChild {
+  margin:0 0 0 30px;
+ 
+}
+.detailsDiv p{
+  color: white;
+  width:40vw;
+  margin:15px 0;
+}
+.detailsDiv h3{
+  color: white;
+  width:40vw;
+  margin: 0 0 20px 0;
+}
+.detailsDiv img{
+  width:30%;
+  
+  
 }
