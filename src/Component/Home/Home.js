@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
-import DetailFetch from "../Deatail/DetailFetch"
+
 
 
 class Home extends Component {

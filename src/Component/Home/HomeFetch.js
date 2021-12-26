@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Home from './Home'
-import Header from '../Header/Header'
+
 class HomeFetch extends Component {
     constructor(props) {
         super(props);
