@@ -13,6 +13,7 @@ import Details from "./Component/Deatail/Details"
 import DetailFetch from "./Component/Deatail/DetailFetch"
 import Search from "./Component/Search/SearchFetch"
 import Button from "./Component/Button/Button"
+import HomeUpcommingFetch from "./Component/HomeUpcoming/HomeUpcommingFetch"
 import './App.css';
 
 
@@ -44,7 +45,7 @@ class App extends Component {
    
 <Routes>
 
-<Route  path="/" element={[<Button/>,<HomeFetch/>,<HomeRatedFetch/>]}/>  
+<Route  path="/" element={[<Button/>,<HomeFetch/>,<HomeRatedFetch/>,<HomeUpcommingFetch/>]}/>  
 <Route path="/details/:id" element={<DetailId/>}/> 
 <Route path="/search" element={<Search/>}/> 
 

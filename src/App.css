@@ -27,10 +27,16 @@ input{
 h2{
   font-size: 3rem;
   text-align: center;
-  padding:2vh 0 0 0;
+ padding: 10px 0;
   background-color:rgb(12, 12, 12);
   color: White;
   text-shadow: 0 0 3px white;
+  box-shadow: 0 0 10px white;
+  margin:0 auto 30px auto;
+  border: 1px solid white;
+  border-radius:20px 0 20px 0;
+  width: 30%;
+
 }
  /* ########## Section ##########  */
 .sectionGrid{
@@ -58,6 +64,10 @@ font-size: 1.2rem;
   margin: 30px;
   position: relative;
   
+}
+.sectionGridUpcomming div{
+  margin: 30px;
+  position: relative;
 }
 .voting{
   position: absolute;
@@ -153,4 +163,15 @@ opacity: 0.8;
   width:30%;
   
   
+}
+
+.sectionGridUpcomming{
+  position: relative;
+  scroll-behavior:smooth;
+  overflow: auto;
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  background-color: rgb(12, 12, 12);
+  width:100%
 }
