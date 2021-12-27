@@ -44,7 +44,7 @@ class App extends Component {
 <Routes>
 
 <Route  path="/" element={[<Button/>,<HomeFetch/>,<HomeRatedFetch/>,<HomeUpcommingFetch/>]}/>  
-<Route path="/details/:id" element={<Button/>,<DetailId/>}/> 
+<Route path="/details/:id" element={<DetailId/>}/> 
 <Route path="/search" element={<Search/>}/> 
 
 
