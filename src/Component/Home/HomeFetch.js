@@ -35,7 +35,7 @@ componentDidMount(){
             <h2>Beliebteste Filme</h2>
             <div className="sectionGrid">
                  
-                <img onClick={this.left} className="btnLeft" src="./SVG/left.svg" alt="" />
+                <img style={{boxShadow: "none"}} onClick={this.left} className="btnLeft" src="./SVG/left.svg" alt="" />
                 
             {this.state.data.map(e =>
                 <Home
@@ -50,7 +50,7 @@ componentDidMount(){
 
                 )}
             
-            <img onClick={this.right} className="btnRight" src="./SVG/right.svg" alt="" />
+            <img style={{boxShadow: "none"}} onClick={this.right} className="btnRight" src="./SVG/right.svg" alt="" />
                
             </div>
             </div>

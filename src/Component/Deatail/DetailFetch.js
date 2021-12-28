@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Details from "./Details"
 import {Link} from "react-router-dom"
-
+import Button from "../Button/Button"
 class DetailFetch extends Component {
     constructor(props) {
         super(props);
@@ -30,9 +30,13 @@ class DetailFetch extends Component {
        
         
         <div>
-            <Link to="/"><button>Back</button></Link>
-            
+            <Button/>
+            <div class="homeBtnBack">
+            <Link to="/"><button>Home</button></Link>
+            </div>
+            <div class="h2Section">
             <h2>Film Infos</h2>
+            </div>
             <Details
             id={this.state.detail.id}
             img={this.state.detail.poster_path}

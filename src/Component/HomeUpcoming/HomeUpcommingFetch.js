@@ -27,7 +27,7 @@ class HomeUpcommingFetch extends Component {
 <div><h2>Bald verfügbar</h2>
 <div className="sectionGridUpcomming">
             
-            <img onClick={this.left} className="btnLeftnew" src="./SVG/left.svg" alt="" /> 
+            <img style={{boxShadow: "none"}} onClick={this.left} className="btnLeftnew" src="./SVG/left.svg" alt="" /> 
 {this.state.dataNew.map(e =>
     <HomeUpcomming
     key={e.id}
@@ -40,7 +40,7 @@ class HomeUpcommingFetch extends Component {
     
     />
     )}
-    <img onClick={this.right} className="btnRightnew" src="./SVG/right.svg" alt="" /> 
+    <img style={{boxShadow: "none"}} onClick={this.right} className="btnRightnew" src="./SVG/right.svg" alt="" /> 
         </div> 
         </div>);
     }

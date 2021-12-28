@@ -1,6 +1,6 @@
 import Button from "../Button/Button"
 import React, { Component } from 'react'
-
+import {Link} from "react-router-dom"
 import Home from '../Home/Home'
 
 let searchArray ="";
@@ -43,11 +43,16 @@ search=()=>{
         console.log(this.state.search);
         return (
             <div>
-          
+         
             <Button
             search={this.search}
             />
+                   <div class="homeBtnBack">
+          <Link to="/"><button >Home</button></Link>
+          </div>
+          <div class="h2Section">
             <h2>Alle Filme</h2>
+            </div>
             <section className="searchSection">
            {this.state.search.map(e =>
             <Home

@@ -19,7 +19,7 @@ console.log(this.state.input);
      
         return (<div className="searchButton">
 
-            <Link to={`/search`}><button id="btn"  onClick={this.props.search}>Klick</button></Link>
+            <Link to={`/search`}><button id="btn"  onClick={this.props.search}>Suchen</button></Link>
                 </div> );
     }
 }

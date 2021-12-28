@@ -23,7 +23,7 @@ class HomeRated extends Component {
         <article >
             
         
-        <p>{`Erscheinungdatum:${this.props.release_date}`}</p>
+        <p>{`Datum:${this.props.release_date}`}</p>
         <img src={`https://image.tmdb.org/t/p/w200${this.props.img}`} alt="" /> 
         <p>{this.props.title}</p>
         <button className="btnLink"><Link className="Link" to={`/details/${this.props.id}`}>Watch Trailer</Link></button>
