@@ -483,3 +483,45 @@ margin:35px 0 20px 0;
    
   }
 }
+
+@media (max-width: 768px) {
+/* ########## Details ##########  */
+.detailsDiv {
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top:10vh;
+  background-color: rgb(12, 12, 12);
+  padding: 0 0 5vh 0;
+
+}
+.iFrime{
+  width:650px;
+  height:300px;
+  margin-right: 10px;
+}
+
+.detailsDivChild {
+  margin:0 0 0 0px;
+ 
+}
+.detailsDiv p{
+  
+  color: white;
+  width:95vw;
+  margin:15px auto;
+}
+.detailsDiv h3{
+  color: white;
+  width:40vw;
+  margin: 10px auto;
+}
+.detailsDiv img{
+  width:60%;
+  height:500px;
+  margin: 10px auto;
+  
+}
+}
