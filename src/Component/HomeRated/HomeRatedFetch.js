@@ -26,7 +26,7 @@ componentDidMount(){
             document.querySelector(".sectionGridNew").scrollLeft+=500
         }
         render() { 
-            console.log(this.state.data);
+          
         return ( 
             <div>
                 <h2>Best Bewertete Filme</h2>

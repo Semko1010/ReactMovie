@@ -24,7 +24,7 @@ class DetailFetch extends Component {
   
   
     render() { 
-        console.log(this.state.video);
+        
         
         return (
        

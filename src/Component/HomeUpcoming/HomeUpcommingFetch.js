@@ -22,7 +22,7 @@ class HomeUpcommingFetch extends Component {
         }
 
     render() { 
-        console.log(this.state.dataNew);
+        
         return ( 
 <div><h2>Bald verfügbar</h2>
 <div className="sectionGridUpcomming">

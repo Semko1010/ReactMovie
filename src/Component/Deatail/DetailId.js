@@ -3,7 +3,7 @@ import DetailFetch from "../Deatail/DetailFetch"
 
 const DetailId = () => {
     let {id} = useParams()
-    console.log(id);
+   
     return ( 
     <div>
 <DetailFetch

@@ -1,6 +1,6 @@
 const Details = (props) => {
     let test=[props.video]
-    console.log(test);
+  
     return ( 
         
         <article className="detailsDiv">

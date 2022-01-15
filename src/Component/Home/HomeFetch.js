@@ -29,7 +29,7 @@ componentDidMount(){
         }
     
         render() { 
-            console.log(this.state.data);
+           
         return ( <div className="h2Section">
            
             <h2>Beliebteste Filme</h2>
