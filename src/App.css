@@ -12,7 +12,8 @@ body{
 img{
   
   border-radius: 10px;
-   box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white;
+  height: 35vh;
 }
  /* ########### Header##########  */
 header{
@@ -519,9 +520,9 @@ margin:35px 0 20px 0;
   margin: 10px auto;
 }
 .detailsDiv img{
-  width:60%;
+  width:50%;
   height:500px;
-  margin: 10px auto;
+  margin: 0px auto 30px auto;
   
 }
 }
