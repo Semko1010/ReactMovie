@@ -1,5 +1,5 @@
 const Details = (props) => {
-    let test=[props.video]
+    
   
     return ( 
         
