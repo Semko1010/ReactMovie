@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "../Button/Button";
+7;
 class Header extends Component {
 	handleKeyPress = event => {
 		if (event.key === "Enter") {
@@ -16,7 +16,6 @@ class Header extends Component {
 					onKeyPress={this.handleKeyPress}
 					placeholder='Film Suchen'
 				/>
-				{/* <Button /> */}
 			</header>
 		);
 	}

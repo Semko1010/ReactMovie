@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Details from "./Details";
 import { Link } from "react-router-dom";
-import Button from "../Button/Button";
+
 class DetailFetch extends Component {
 	constructor(props) {
 		super(props);
