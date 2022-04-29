@@ -8,13 +8,17 @@ body{
   font-family: 'IM Fell English SC', serif;
   background-color: rgb(12, 12, 12);
 }
-
-img{
-  
+.homeImg{
+  height:35vh;
   border-radius: 10px;
-  box-shadow: 0 0 10px white;
-  height: 35vh;
+  box-shadow: 0 0 10px white; 
 }
+/* img{
+  height:35vh;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white; 
+ 
+} */
  /* ########### Header##########  */
 header{
   background-color: rgb(33, 33, 33);
@@ -64,7 +68,7 @@ color: white;
 font-size: 1.2rem;
 }
 .sectionGrid >div{
- 
+  /* height:45vh; */
   margin: 30px;
   position: relative;
 
@@ -125,7 +129,7 @@ opacity: 0.8;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 5px;
   font-size: 1.2rem;
-  margin: 10px;
+  margin: 50px 10px 10px 10px;
 }
 .btnLink:hover{
   background-color: rgb(0, 0, 0);
@@ -192,9 +196,9 @@ opacity: 0.8;
   margin: 0 0 20px 0;
 }
 .detailsDiv img{
-  width:25%;
-  height:650px;
-  
+  width:20%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white; 
   
 }
 /* ########## Search ##########  */
@@ -246,7 +250,7 @@ margin: 30px;
 }
 .searchSection img{
  width: 80%;
- height:450px;
+ 
  border-radius: 20px;
  box-shadow: 0 0 10px white;
 }
