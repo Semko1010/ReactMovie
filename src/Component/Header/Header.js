@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-7;
+
 class Header extends Component {
 	handleKeyPress = event => {
 		if (event.key === "Enter") {
