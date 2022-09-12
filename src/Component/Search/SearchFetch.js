@@ -1,7 +1,6 @@
 import Button from "../Button/Button";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Home from "../Home/Home";
 
 let searchArray = "";
 
