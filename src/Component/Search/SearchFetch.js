@@ -47,16 +47,23 @@ class SearchFetch extends Component {
 				<div class='h2Section'>
 					<h2>Alle Filme</h2>
 				</div>
-				<section className='searchSection'>
+				<section className='searchSectionMain'>
 					{this.state.search.map(e => (
-						<Home
-							key={e.id}
-							id={e.id}
-							title={e.title}
-							img={e.poster_path}
-							voting={e.vote_average}
-							release_date={e.release_date}
-						/>
+						<div className='searchSection'>
+							<p>{e.release_date}</p>
+							<p className='votingSearch'>{e.vote_average}</p>
+							<img
+								className='homeImg'
+								src={`https://image.tmdb.org/t/p/w200${e.poster_path}`}
+								alt=''
+							/>
+							<p style={{ marginTop: "20px" }}>{e.title}</p>
+							<button className='btnLink'>
+								<Link className='Link' to={`/details/${e.id}`}>
+									Watch Trailer
+								</Link>
+							</button>
+						</div>
 					))}
 				</section>
 			</div>
