@@ -378,7 +378,7 @@ margin: 30px;
   .btnLink{
     background-color: yellowgreen;
     padding: 5px 20px;
-    border: 1px solid black;
+  
     border-radius: 5px;
   }
   .Link{
@@ -636,7 +636,7 @@ margin:35px 0 20px 0;
   .btnLink{
     background-color: yellowgreen;
     padding: 5px 20px;
-    border: 1px solid black;
+    
     border-radius: 5px;
   }
   .Link{
